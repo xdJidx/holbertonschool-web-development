@@ -175,3 +175,31 @@ Add a section for the FAQ with inside:
     </div>
 </section>
 ```
+
+### Task 7 : Footer
+After the last section, outside of the main, add a footer :
+- A global block (used later for centering the footer content), inside this block: A row block with an image, a block with inside images with link
+- A text.
+```
+<footer>
+    <div>
+        <div>
+            <div>
+                <img src="image14.jpg" alt="image 14">
+            </div>
+            <div>
+                <a href="#">
+                    <img src="link1.png" alt="Link 1">
+                </a>
+                <a href="#">
+                    <img src="link2.png" alt="Link 2">
+                </a>
+                <a href="#">
+                    <img src="link2.png" alt="Link 3">
+                </a>
+            </div>
+        </div>
+        <p>Text</p>
+    </div>
+</footer>
+```
