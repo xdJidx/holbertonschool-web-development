@@ -104,3 +104,40 @@ New section with inside An heading tag, a block containing the 4 video block, ea
     </div>
 </section>
 ```
+
+### Task 5 : Membership
+Membership section is similar as the videos list.<br>
+After the videos list section, add a new section containing:<br>
+An heading, A block with inside 4 block item - each block defined with:
+- An image
+- An heading
+- A text
+And finally a button.
+```
+ </section>
+    <h1>TITLE</h1>
+    <div>
+        <div>
+            <img src="image10.jpg" alt="image 10">
+            <h2>Title</h2>
+            <p>TEXT</p>
+        </div>
+        <div>
+            <img src="image11.jpg" alt="image 11">
+            <h2>Title</h2>
+            <p>TEXT</p>
+        </div>
+        <div>
+            <img src="image12.jpg" alt="image 12">
+            <h2>Title</h2>
+            <p>TEXT</p>
+        </div>
+        <div>
+            <img src="image13.jpg" alt="image 13">
+            <h2>Title</h2>
+            <p>TEXT</p>
+        </div>
+    </div>
+    <button>BUTTON</button>
+</section>
+```
