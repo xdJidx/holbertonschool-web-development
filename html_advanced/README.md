@@ -141,3 +141,37 @@ And finally a button.
     <button>BUTTON</button>
 </section>
 ```
+
+### Task 6 : FAQ
+The FAQ section is ending the page before the footer.<br>
+Add a section for the FAQ with inside:
+- A block that contains 2 “row block”
+- Each “row block” contains 2 “item block”
+- Each “item block” is composed of: An heading and a text.
+```
+<section>
+    <h1>TITLE</h1>
+    <div>
+        <div>
+            <div>
+                <h2>Title</h2>
+                <p>TEXT</p>
+            </div>
+            <div>
+                <h2>Title</h2>
+                <p>TEXT</p>
+            </div>
+        </div>
+        <div>
+            <div>
+                <h2>Title</h2>
+                <p>TEXT</p>
+            </div>
+            <div>
+                <h2>Title</h2>
+                <p>TEXT</p>
+            </div>
+        </div>
+    </div>
+</section>
+```
