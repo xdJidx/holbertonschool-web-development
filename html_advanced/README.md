@@ -26,3 +26,30 @@ In first time, we create the header with the logo and a menu with 3 links.
 </body>
 ```
 
+### Task 2 : Banner
+Under the header, add a main element with inside a section element.
+In this section, you have 2 div :
+- Title with <p> and <button>
+- Title with 4 divs within <img>, <h3> and <p>
+```
+<main>
+    <section>
+        <div>
+            <h1>Title</h1>
+            <p>3 WORDS</p>
+            <button>Button</button>
+        </div>
+        <div>
+            <h2>Title</h2>
+            <div>
+                <div>
+                    <img src="image1.jpg" alt="image 1">
+                    <h3>Name1</h3>
+                    <p>SUB-TITLE</p>
+                </div>
+                <-- 3 idem div -->
+            </div>
+        </div>
+    </section>
+</main>
+```
