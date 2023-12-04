@@ -53,3 +53,22 @@ In this section, you have 2 div :
     </section>
 </main>
 ```
+
+### Task 3 : Quote
+Under the banner, we will add the quote block:
+The quote section is inside the main, create a new section for the quote.
+Inside, add a block containing with an image and another block with inside a quote tag, an author quote and a text.
+```
+<section>
+    <div>
+        <img src="image5.jpg" alt="image 5">
+        <div>
+            <blockquote>
+                <p>QUOTE</p>
+            </blockquote>
+            <p>Author</p>
+            <p>Sub-Title</p>
+        </div>
+    </div>
+</section>
+```
