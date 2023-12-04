@@ -29,8 +29,8 @@ In first time, we create the header with the logo and a menu with 3 links.
 ### Task 2 : Banner
 Under the header, add a main element with inside a section element.
 In this section, you have 2 div :
-- Title with <p> and <button>
-- Title with 4 divs within <img>, <h3> and <p>
+- Title with paragraphe and button
+- Title with 4 divs within img, h3 and paragraphe
 ```
 <main>
     <section>
@@ -69,6 +69,38 @@ Inside, add a block containing with an image and another block with inside a quo
             <p>Author</p>
             <p>Sub-Title</p>
         </div>
+    </div>
+</section>
+```
+
+### Task 4 : Videos
+Let’s now add the videos list:<br>
+New section with inside An heading tag, a block containing the 4 video block, each of them are composed with : An image, an heading, a text, a block for the author : image and heading, and finally a block for the rating with a block image and text.
+```
+<section>
+    <h1>Title</h1>
+    <div>
+        <div>
+            <img src="image6.jpg" alt="image 6">
+            <h2>Title</h2>
+            <p>TEXT</p>
+            <div>
+                <img src="image6-1.jpg" alt="image 6-1">
+                <h3>Title</h3>
+            </div>
+            <div>
+                <div>
+                    <img src="star.png" alt="Star">
+                    <img src="star.png" alt="Star">
+                    <img src="star.png" alt="Star">
+                    <img src="star.png" alt="Star">
+                    <img src="star.png" alt="Star">
+                </div>
+                <p>Text</p>
+            </div>
+        </div>
+        <-- Add 3 more time this div for video -->
+
     </div>
 </section>
 ```
