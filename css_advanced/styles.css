@@ -1,0 +1,421 @@
+@font-face {
+    font-family: SourceSansPro;
+    src: url(fonts/SourceSansPro-Regular.otf) format('opentype'); 
+  }
+
+header img {
+    left: 50%;
+}
+
+.head-background {
+    background: url('images/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+
+}
+
+body {
+    width: 100%;
+}
+
+/* Section Banner : header and main_part */
+
+header {
+    position: fixed;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+header * {
+    display: inline;
+}
+
+header div img {
+    margin-left: 100px;
+    width: 167px;
+    height: 29px;
+    flex-shrink: 0;
+}
+
+header nav {
+    margin-left: 950px;
+    display: inline-flex;
+    height: 15px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 52px;
+    flex-shrink: 0;
+}
+
+header a {
+    color: white;
+    font-family: sourceSansPro;
+    text-decoration: none;
+}
+
+header a:link {
+    text-decoration: none;
+}
+
+header a:visited {
+    text-decoration: none;
+}
+
+.main_part h1 {
+    color: #FFF;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: sourceSansPro;
+    font-size: 120px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 150px;
+    margin: 0;
+}
+
+.main_part {
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.main_part p {
+    display: inline-block;
+    margin: 0 12px 0 12px;
+    padding-bottom: 50px;
+    font-family: sourceSansPro;
+    font-size: 16px;
+    word-spacing: 40px;
+    font-weight: 700;
+    line-height: normal;
+    color: #FFF;
+}
+
+.main_part button {
+    background-color: #C271FF;
+    display: block;
+    margin: 0 auto;
+    width: 162px;
+    height: 44px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    text-align: center;
+    font-family: sourceSansPro;
+    font-weight: bold;
+    color: #FFF;
+    border-color: transparent;
+    border-radius: 22px;
+}
+
+.pros h2 {
+    color: #FFF;
+    font-family: sourceSansPro;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: normal;
+    display: flex;
+    text-indent: 10px;
+    justify-content: center;
+}
+
+.pros-box {
+    display: flex;
+    justify-content: space-evenly;
+    text-indent: 10px;
+}
+
+.pros-info{
+    height: 220px;
+    width: 155px;
+    padding: 40px 0 0 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pros-img {
+    height: 110px;
+    width: 110px;
+    border-radius: 95px;
+}
+
+.pros-info h3 {
+    font-family: sourceSansPro;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.pros-info p {
+    font-family: sourceSansPro;
+    font-style: italic;
+    font-size: 15px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 0px;
+    color: white;
+}
+
+/* Section Quote */
+
+.quotesection {
+    background-color: #C271FF;
+    padding: 60px 0 60px 90px;
+}
+
+.quotediv {
+    display: flex;
+    justify-content: center;
+}
+
+.quotetext {
+    color: white;
+    padding-left: 40px;
+    width: 600px;
+}
+
+.quotetext blockquote {
+    margin: 0px 0px 40px 0px;
+    font-family: sourceSansPro;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.quotetext p {
+    font-family: sourceSansPro, sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    margin: 5px 0;
+}
+
+.quoteimg {
+    border-radius: 90px;
+}
+/* Section Video */
+.videosection {
+    background-color: #FFF;
+}
+
+.videosection h1 {
+    font-family: sourceSansPro, sans-serif;
+    padding: 40px 0px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    text-indent: 10px;
+}
+
+.videosection h1 strong {
+    color: #C271FF;
+    font-family: sourceSansPro, sans-serif;
+}
+
+.videoblock {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.videoitem {
+    width: 240px;
+    min-height: 340px;
+}
+
+.videoitem h2 {
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+.videoitem p {
+    font-family: sourceSansPro, sans-serif;
+    color: gray;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.authorvideo {
+    display: flex;
+    align-items: center;
+}
+
+.authorvideo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin-left: 10px;
+}
+
+.authorvideo h3 {
+    font-family: sourceSansPro, sans-serif;
+    color: #C271FF;
+    font-size: 16px;
+    padding-left: 1rem;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.star {
+    width: auto;
+    height: 20px;
+}
+
+.videotime {
+    font-family: sourceSansPro, sans-serif;
+    font-weight: normal;
+    color: #C271FF;
+    font-size: 14px;
+}
+/* Section Membersship*/
+.menmbership {
+    background-color: #071629;
+}
+
+.menmbership h1 {
+    font-family: sourceSansPro, sans-serif;
+    text-indent: 10px;
+    padding: 60px;
+    color: white;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+.menmbership h1 strong {
+    color: #C271FF;
+}
+
+.options {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.itemoffer {
+    width: 200px;
+    height: 200px;
+}
+
+.itemoffer img {
+    width: 50px;
+    padding: 0px 75px 0px 75px;
+}
+
+.itemoffer h2 {
+    font-family: sourceSansPro, sans-serif;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+}
+
+.itemoffer p {
+    color: white;
+    text-align: center;
+    font-family: sourceSansPro, sans-serif;
+}
+
+.buttonmembership {
+    font-size: 14px;
+    font-family: sourceSansPro, sans-serif;
+    font-weight: normal;
+    border-radius: 1.38rem;
+    border-color: transparent;
+    box-shadow: 4px 4px 8px rgb(0, 0, 0, 0.2);
+    width: 10.13rem;
+    height: 2.75rem;
+    background-color: #C271FF;
+    color: white;
+}
+
+.buttondiv {
+    padding: 15px 0px 50px 0px;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+}
+
+/* FAQ */
+.faqsection {
+    background-color: #FFF;
+}
+
+.faqsection h1 {
+    text-align: center;
+    font-size: 3.13rem;
+    font-weight: 100;
+    padding-top: 2.5rem;
+    font-family: sourceSansPro, sans-serif;
+}
+
+.faqblock {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.twofaqsec {
+    height: 600px;
+    width: 350px;
+}
+
+.twofaqsec h2 {
+    font-size: 20px;
+    font-family: sourceSansPro, sans-serif;
+}
+
+.twofaqsec p {
+    color: gray;
+    font-size: 15px;
+    line-height: 1.5;
+    font-family: sourceSansPro, sans-serif;
+}
+
+/* footer */
+footer {
+    background-color: #071629;
+    height: 249px;
+}
+
+.footercontainer {
+    height: 249px;
+}
+
+.imgfooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6rem;
+}
+
+.footercontainer p {
+    color: gray;
+    margin: 0px;
+    text-align: center;
+    padding: 4rem 0px 30px 0px;
+    font-size: 12px;
+}
+
+.medialogo img {
+    width: 40px;
+    height: 40px;
+    padding-left: 15px;
+}
+
+.logofooter {
+    display: flex;
+    margin-left: 80px;
+}
+
+.medialogo {
+    margin-right: 200px;
+    align-items: center;
+}
